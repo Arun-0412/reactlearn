@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Routerwithdata from "./routerwithdata/main";
+import Hooks from "./hooks/hookslearn";
+// import Menu from './demo/menu'
+// import App from './App';
+// import Newfile from './newfile';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+
+    {/* Adding the new file in the menu start */}
+    {/* <div className="container">
+    <Newfile /> </div> */}
+    {/* <Routerwithdata/> */}
+    <Hooks />
+     {/* <Menu/> */}
+    {/* Adding the new file in the menu end   */}
   </React.StrictMode>
 );
 
